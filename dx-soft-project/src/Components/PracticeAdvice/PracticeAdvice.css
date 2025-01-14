@@ -1,0 +1,80 @@
+.title p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #737373;
+    width: 469px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.title h6 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* width: 114px; */
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #23A6F0;
+}
+
+.title h2 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #252B42;
+    /* width: 710px; */
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.title {
+    width: Fixed (691px)px;
+    height: Hug (134px)px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.header {
+    width: Fixed (692px)px;
+    height: Hug (134px)px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.container {
+    width: Fixed (1,050px)px;
+    height: Hug (988.01px)px;
+    left: 195px;
+    padding: 160px 0px 160px 0px;
+    gap: 96px;
+    opacity: 0px;
+}
+
+.PracticeAdvice {
+    width: 1440px;
+    height: 988px;
+    gap: 0px;
+    opacity: 0px;
+}
