@@ -14,6 +14,8 @@
     opacity: 0px;
 }
 
+
+
 h5 {
     font-family: Montserrat;
     font-size: 16px;
@@ -27,13 +29,13 @@ h5 {
 
 .comment2 span, .comment3 span{
     font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 561;
     line-height: 20px;
     letter-spacing: 0.20000000298023224px;
     text-align: center;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none; 
+    text-decoration-skip-ink: none;
     color: #737373;
 }
 
@@ -45,7 +47,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 156px;
+    width: 150px;
     text-align: center;
 }
 
@@ -128,9 +130,9 @@ img {
     opacity: 0px;
 }
 
-/* .PracticeAdvice {
+.PracticeAdvice {
     width: 1440px;
     height: 988px;
     gap: 0px;
     opacity: 0px;
-} */
+}

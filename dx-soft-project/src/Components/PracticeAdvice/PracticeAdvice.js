@@ -25,7 +25,7 @@ function PracticeAdvice(){
                             <img src={pic1} alt="pic1" /> 
                         </div>
                         <div className="content">
-                            <span>Slate helps you see  how many more days you need to work to reach your financial goal for the month and year.</span>
+                            <span className="text">Slate helps you see  how many more days you need to work to reach your financial goal for the month and year.</span>
                         </div>
                         <div>
                             <img src={star} alt="Icon of a star" />
@@ -44,7 +44,7 @@ function PracticeAdvice(){
                             <img src={pic2} alt="pic2" />
                         </div>
                         <div>
-                            <span>Slate helps you see  how many more days you need to work to reach your financial goal for the month and year.</span>
+                            <span className="text">Slate helps you see  how many more days you need to work to reach your financial goal for the month and year.</span>
                         </div>
                         <div>
                             <img src={star} alt="Icon of a star" />
