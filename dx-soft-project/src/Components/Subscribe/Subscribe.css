@@ -1,0 +1,50 @@
+button {
+    width: 117px;
+    height: 58px;
+    gap: 10px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: white;
+    background: #23A6F0;
+    border: none;
+}
+button span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+::placeholder {
+    width: 77px;
+    height: 28px;
+    top: 15px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #737373;
+    padding-left: 15px;
+}
+
+input {
+    width: 688px;
+    height: 58px;
+    gap: 47px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px, solid, gray;
+}
