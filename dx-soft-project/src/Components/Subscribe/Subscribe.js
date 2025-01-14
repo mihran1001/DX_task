@@ -4,14 +4,14 @@ import React from "react";
 function Subscribe(){
     return (<div className="Subscribe">
         <div className="title">
-            <div className="">
-                Practice Advice
+            <div>
+                <h6>Practice Advice</h6>
             </div>
             <div>
-                Featured Products
+                <h2>Featured Products</h2>
             </div>
             <div>
-                <span>Problems trying to resolve the conflict between 
+                <span className="text">Problems trying to resolve the conflict between 
                 the two major realms of Classical physics: Newtonian mechanics</span>
             </div>
         </div>
