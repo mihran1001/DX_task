@@ -19,18 +19,24 @@ function PracticeAdvice(){
         </div>
             <div className="footer">
                 <div className='carousel'>
-                    <div className="comment1">comment1</div>
+                    {/* <div className="comment1">comment1</div> */}
                     <div className="comment2">
                         <div className="image1">
                             <img src={pic1} alt="pic1" /> 
                         </div>
                         <div className="content">
                             <span>Slate helps you see  how many more days you need to work to reach your financial goal for the month and year.</span>
+                        </div>
+                        <div>
                             <img src={star} alt="Icon of a star" />
                             <img src={star} alt="Icon of a star" />
                             <img src={star} alt="Icon of a star" />
                             <img src={star} alt="Icon of a star" />
                             <img src={emptystar} alt="Icon of an empty star" />
+                        </div>
+                        <div>
+                            <h5>Regina Miles</h5>
+                            <h6>Designer</h6>
                         </div>
                     </div>
                     <div className="comment3">
@@ -39,14 +45,20 @@ function PracticeAdvice(){
                         </div>
                         <div>
                             <span>Slate helps you see  how many more days you need to work to reach your financial goal for the month and year.</span>
+                        </div>
+                        <div>
                             <img src={star} alt="Icon of a star" />
                             <img src={star} alt="Icon of a star" />
                             <img src={star} alt="Icon of a star" />
                             <img src={star} alt="Icon of a star" />
                             <img src={emptystar} alt="Icon of an empty star" />
                         </div>
+                        <div>
+                            <h5>Regina Miles</h5>
+                            <h6>Designer</h6>
+                        </div>
                     </div>
-                    <div className="comment4">comment4</div>
+                    {/* <div className="comment4">comment4</div> */}
                 </div>
             </div> 
     </div>);
