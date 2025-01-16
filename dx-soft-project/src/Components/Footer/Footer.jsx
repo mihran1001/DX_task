@@ -2,6 +2,7 @@ import styles from "./Footer.module.css";
 import facebook_logo from "../../logos/facebook-logo.png";
 import instagram_logo from "../../logos/instagram-logo.png";
 import twitter_logo from "../../logos/twitter-logo.png";
+import background from "../../pics/footer shape.png";
 
 function Footer(){
     return (<div className={styles.footer_section}>
@@ -37,12 +38,10 @@ function Footer(){
                 <a href="http://facebook.com">API</a>
             </div>
         </div>
-        <div className={styles.signature}>
-
+        <div className={styles.footer_background}>
+            <img src={background} alt="footer img" />
         </div>
-        <div className={styles.background}>
-            <h6>Made With Love By Figmaland All Right Reserved</h6> 
-        </div>
+        <h6 className={styles.footer_text}>Made With Love By Figmaland All Right Reserved</h6>
     </div>)
 }
 
