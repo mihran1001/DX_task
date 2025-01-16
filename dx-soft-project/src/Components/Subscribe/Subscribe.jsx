@@ -1,9 +1,9 @@
-import "./Subscribe.css";
+import styles from "./Subscribe.module.css";
 import React from "react";
 
 function Subscribe(){
-    return (<div className="Subscribe">
-        <div className="title">
+    return (<div className={styles.Subscribe}>
+        <div className={styles.title}>
             <div>
                 <h6>Practice Advice</h6>
             </div>
@@ -11,11 +11,11 @@ function Subscribe(){
                 <h2>Featured Products</h2>
             </div>
             <div>
-                <span className="text">Problems trying to resolve the conflict between 
+                <span className={styles.text}>Problems trying to resolve the conflict between 
                 the two major realms of Classical physics: Newtonian mechanics</span>
             </div>
         </div>
-        <div className="email">
+        <div className={styles.email}>
             <input type="text" placeholder="Your Email" />
             <button><span>Subscribe</span></button>
         </div>

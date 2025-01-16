@@ -44,7 +44,7 @@ h6 {
     color: #737373;
 }
 
-.Subscribe h2 {
+.Subscribe .title h2 {
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 700;
@@ -54,8 +54,10 @@ h6 {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-top: -40px;
-    margin-bottom: -34px;
+    margin-bottom: 6px;
 }
+
+
 
 button span {
     font-family: Montserrat;
@@ -69,7 +71,7 @@ button span {
 }
 
 ::placeholder {
-    width: 77px;
+    width: 80px;
     height: 28px;
     top: 15px;
     left: 20px;
@@ -77,7 +79,7 @@ button span {
     opacity: 0px;
     font-family: Montserrat;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 28px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
@@ -89,12 +91,17 @@ button span {
 
 input {
     width: 688px;
-    height: 58px;
+    height: 55px;
     gap: 47px;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 5px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    border: 1px, solid, gray;
+    border: 1px, solid, #E6E6E6;
+    background-color: #F9F9F9;
+}
+
+.email {
+    margin-top: 150px;
 }
 
 .title {
