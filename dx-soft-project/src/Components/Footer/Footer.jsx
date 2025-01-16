@@ -1,4 +1,7 @@
 import "./Footer.css";
+import facebook_logo from "../../logos/facebook-logo.png";
+import instagram_logo from "../../logos/instagram-logo.png";
+import twitter_logo from "../../logos/twitter-logo.png";
 
 function Footer(){
     return (<div className="footer-section">
@@ -6,6 +9,11 @@ function Footer(){
             <div className="first">
                 <h3>Get In Touch</h3>
                 <p>the quick fox jumps over the lazy dog</p>
+                <div className="logos">
+                    <img src={facebook_logo} alt="facebook" />
+                    <img src={instagram_logo} alt="instagram" />
+                    <img src={twitter_logo} alt="twitter" />
+                </div>
             </div>
             <div className="second">
                 <h3>Company info</h3>

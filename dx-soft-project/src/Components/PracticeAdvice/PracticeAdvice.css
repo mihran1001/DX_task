@@ -102,6 +102,8 @@ img {
     height: 50px;
     gap: 0px;
     opacity: 0px;
+    margin-top: -30px;
+    margin-bottom: -14px;
 }
 
 .title {
