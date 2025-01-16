@@ -71,13 +71,81 @@
     padding-top: 113px;
 } 
 
+.line1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    background-color: #252B42;
+    border-radius: 24%;
+}
+
+.rating span {
+    color: white;
+}
+
 .carousel {
     display: flex;
     justify-content: center;
+    margin-top: 86px;
+}
+
+.sales {
+    display: flex;
+}
+
+.carousel h6 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.20000000298023224px;
+}
+
+.arrow {
+    height: 16px;
+    width: 16px;
+}
+
+.description {
+    padding: 28px 20px;
+}
+
+.text {
+    color: #737373;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.graphicdesign {
+    color: #252B42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
 .content a {
     text-decoration: none;
+    color: #23A6F0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
 .box1, .box2 {

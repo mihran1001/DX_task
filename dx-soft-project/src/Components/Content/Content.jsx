@@ -2,7 +2,9 @@ import styles from "./Content.module.css";
 import React from "react";
 import computer from "../../pics/computer_pic.png";
 import profile1 from "../../pics/profile1.png";
-import profile2 from "../../pics/profile2.jpg";
+// import profile2 from "../../pics/profile2.jpg";
+import star from "../../icons/star.png";
+import frame from "../../icons/Frame.png";
 
 function Content(){
     return (<div className={styles.content}>
@@ -17,16 +19,41 @@ function Content(){
         <div className={styles.carousel}>
             <div className={styles.box1}>
                 <img src={computer} alt="cmp" />
-                <a href="http://facebook.com">English Departement</a>
-                <span>Graphic Design</span>
-                <span>We focus on ergonomics and meeting<br />you where you work. It's only a<br />keystroke away.</span>
-                
+                <div className={styles.description}>
+                    <div className={styles.line1}>
+                        <a href="http://facebook.com">English Departement</a>
+                        <div className={styles.rating}>
+                            <img src={star} alt="" />
+                            <span>4.9</span>
+                        </div>
+                    </div>
+                    <span className={styles.graphicdesign}>Graphic Design</span>
+                    <p className={styles.text}>We focus on ergonomics and meeting<br />you where you work. It's only a<br />keystroke away.</p>
+                    <div className={styles.sales}>
+                        <img src={frame} alt="" className={styles.arrow} />
+                        <h6>15 Sales</h6>
+                    </div>
+                </div> 
+
             </div>
             <div className={styles.box2}>
                 <img src={profile1} alt="p2" />
-                <a href="http://facebook.com">English Departement</a>
-                <span>Graphic Design</span>
-                <span>We focus on ergonomics and meeting<br />you where you work. It's only a<br />keystroke away.</span>
+                <div className={styles.description}>
+                    <div className={styles.line1}>
+                        <a href="http://facebook.com">English Departement</a>
+                        <div className={styles.rating}>
+                            <img src={star} alt="" />
+                            <span>4.9</span>
+                        </div>
+                    </div>
+                    <span className={styles.graphicdesign}>Graphic Design</span>
+                    <p className={styles.text}>We focus on ergonomics and meeting<br />you where you work. It's only a<br />keystroke away.</p>
+                    <div className={styles.sales}>
+                        <img src={frame} alt="" className={styles.arrow} />
+                        <h6>15 Sales</h6>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>)
