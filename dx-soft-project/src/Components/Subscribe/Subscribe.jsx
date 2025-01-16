@@ -11,8 +11,8 @@ function Subscribe(){
                 <h2>Featured Products</h2>
             </div>
             <div>
-                <span className={styles.text}>Problems trying to resolve the conflict between 
-                the two major realms of Classical physics: Newtonian mechanics</span>
+                <span className={styles.text1}>Problems trying to resolve the conflict between<br /></span>
+                <span className={styles.text2}>the two major realms of Classical physics: Newtonian mechanics</span>
             </div>
         </div>
         <div className={styles.email}>

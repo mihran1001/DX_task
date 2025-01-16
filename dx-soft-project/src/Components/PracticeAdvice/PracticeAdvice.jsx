@@ -12,8 +12,10 @@ function PracticeAdvice(){
                 <div className={styles.title}>
                     <h6>Practice Advice</h6>
                     <h2>Each and every client is important</h2>
-                    <p>Problems trying to resolve the conflict between 
-                    the two major realms of Classical physics: Newtonian mechanics </p>
+                    <div className={styles.text}>
+                        <span className={styles.text1}>Problems trying to resolve the conflict between<br /></span>
+                        <span className={styles.text2}>the two major realms of Classical physics: Newtonian mechanics</span>
+                    </div>
                 </div>
             </div>
         </div>

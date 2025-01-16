@@ -34,7 +34,7 @@
     text-decoration-skip-ink: none; 
 }
 
-a {
+.footer_section a {
     font-family: Montserrat;
     font-size: 14px;
     /* width: 67px;
@@ -62,7 +62,7 @@ a {
     flex-direction: column;
 }
 
-h3 {
+.footer_section h3 {
     /* width: 154px;
     height: 32px; */
     gap: 0px;
@@ -90,7 +90,7 @@ h3 {
     background-color: #1853AC;
 }
 
-h6 {
+.footer_section h6 {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;

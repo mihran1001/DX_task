@@ -1,4 +1,4 @@
-.title p {
+.text1, .text2 {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -8,15 +8,17 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #737373;
-    width: 469px;
-    height: 40px;
-    gap: 0px;
-    opacity: 0px;
 }
 
+.text1 {
+    margin-left: 62px;
+}
 
+.text {
+    margin-top: 20px;
+}
 
-h5 {
+.PracticeAdvice h5 {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
@@ -27,7 +29,7 @@ h5 {
     text-decoration-skip-ink: none;
 }
 
-.comment2 span, .comment3 span{
+.PracticeAdvice .comment2 span, .PracticeAdvice .comment3 span{
     font-family: Montserrat;
     font-size: 13px;
     font-weight: 561;
@@ -39,7 +41,7 @@ h5 {
     color: #737373;
 }
 
-img {
+.PracticeAdvice img {
     border-radius: 50%;
 }
 
@@ -51,7 +53,7 @@ img {
     text-align: center;
 }
 
-.comment2 h6, .comment3 h6 {
+.PracticeAdvice .comment2 h6, .PracticeAdvice .comment3 h6 {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;

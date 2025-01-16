@@ -9,7 +9,7 @@
     margin-top: 430px;
 }
 
-button {
+.Subscribe button {
     width: 117px;
     height: 58px;
     gap: 10px;
@@ -21,7 +21,7 @@ button {
     border: none;
 }
 
-h6 {
+.Subscribe h6 {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
@@ -30,9 +30,10 @@ h6 {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    color: #23A6F0;
 }
 
-.text {
+.text1, .text2 {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -44,6 +45,10 @@ h6 {
     color: #737373;
 }
 
+.text1 {
+    margin-left: 62px;
+}
+
 .Subscribe .title h2 {
     font-family: Montserrat;
     font-size: 40px;
@@ -53,13 +58,13 @@ h6 {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    margin-top: -40px;
+    margin-top: -15px;
     margin-bottom: 6px;
 }
 
 
 
-button span {
+.Subscribe button span {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -70,7 +75,7 @@ button span {
     text-decoration-skip-ink: none;
 }
 
-::placeholder {
+.Subscribe ::placeholder {
     width: 80px;
     height: 28px;
     top: 15px;
@@ -89,7 +94,7 @@ button span {
     padding-left: 15px;
 }
 
-input {
+.Subscribe input {
     width: 688px;
     height: 55px;
     gap: 47px;
