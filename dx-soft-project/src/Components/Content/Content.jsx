@@ -9,6 +9,9 @@ import alarm from "../../icons/alarm.png";
 import waves from "../../icons/waves.png";
 import mountain from "../../icons/mountain.png";
 import arrow from "../../icons/vector.png";
+import basket from "../../icons/basket.png";
+import heart from "../../icons/heart.png";
+import eye from "../../icons/eye.png";
 
 
 function Content(){
@@ -57,7 +60,14 @@ function Content(){
                         </button>
                     </div>
                 </div> 
-
+                <div className={styles.addition}>
+                    <span>Sale</span>
+                </div>
+                <div className={styles.options}>
+                    <img src={heart} alt="" />
+                    <img className={styles.basket} src={basket} alt="" />
+                    <img src={eye} alt="" />
+                </div>
             </div>
             <div className={styles.box2}>
                 <img src={profile1} alt="p2" />
@@ -94,7 +104,14 @@ function Content(){
                         </button>
                     </div>
                 </div>
-
+                <div className={styles.addition}>
+                    <span>Sale</span>
+                </div>
+                <div className={styles.options}>
+                    <img src={heart} alt="" />
+                    <img className={styles.basket} src={basket} alt="" />
+                    <img src={eye} alt="" />
+                </div>
             </div>
         </div>
     </div>)

@@ -76,13 +76,16 @@
     justify-content: space-between;
 }
 
-.rating {
-    background-color: #252B42;
-    border-radius: 24%;
-}
-
 .rating span {
     color: white;
+    margin-left: 8px;
+    padding-right: 3px;
+    margin-top: 1px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
 }
 
 .carousel {
@@ -191,7 +194,7 @@
 }
 
 .carousel button {
-    border-color: #23A6F0;
+    border: 1px solid #23A6F0;
     background-color: white;
     color: #23A6F0;
     font-family: Montserrat;
@@ -206,4 +209,41 @@
     margin-top: 27px;
     display: flex;
     align-items: center;
+}
+
+.rating {
+    color:#444;
+    padding: 5px;
+    text-align: center;
+}
+
+.rating {
+    background-color: #252B42;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.addition {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    position: absolute;
+    margin-top: 10px;
+    background-color: #E74040;
+    padding-left: 1px;
+    color: #FFFFFF;
+}
+
+.options {
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 99px;
+}
+
+.basket {
+    margin-left: 13px;
+    margin-right: 13px;
 }
