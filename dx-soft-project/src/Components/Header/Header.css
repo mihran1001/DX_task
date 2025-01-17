@@ -1,17 +1,18 @@
 
 
 .section_one{
-    width: 100vw;
-    max-width: 1600px;
+    width: 1440px;
+    /* max-width: 1440px; */
      height: 600px; 
      margin: auto;
-    padding: 0 12vw;
+    padding:5vw;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     position: relative;
     background: #184C99;
+    
 }
 
 .section_one .header{
@@ -90,14 +91,14 @@
     color: white;
      font-size:  55px;
      font-weight: bold;
-     margin-top: 50px;
      font-family: Montserrat;
 }
 
 .backGround .text1{
+    
     color: #23A6F0;
     font-size: 17px;
-    margin-top: 5vw;
+    margin-top: 14vw;
     font-family: Montserrat;
 }
 
@@ -118,9 +119,9 @@
     left: 10%; /* Adjust horizontal position */
     z-index: 5; /* Ensure it’s above other elements */
     margin-left: 790px;
-    margin-top: 20px;
-    width: 300px;
-    height: auto;
+    margin-top: 10px;
+    width: 355px;
+    height: 446px;
 }
 
 .forimage2{
@@ -132,8 +133,8 @@
     z-index: 5; /* Ensure it’s above other elements */
     margin-left: 820px;
     margin-top: 50px;
-    width: 300px;
-    height: auto;
+    width: 355px;
+    height: 446px;
 }
 
 .forimage3 {
@@ -145,8 +146,8 @@
     z-index: 5; /* Ensure it’s above other elements */
     margin-left: 700px;
     margin-top: 80px;
-    width: 120px;
-    height: auto;
+    width: 151px;
+    height: 76;
 }
 .forimage4 {
     width: 200px; /* Image width */
@@ -156,9 +157,9 @@
     left: 10%; /* Adjust horizontal position */
     z-index: 5; /* Ensure it’s above other elements */
     margin-left: 880px;
-    margin-top: 325px;
-    width: 120px;
-    height: auto;
+    margin-top: 375px;
+    width: 172px;
+    height: 172px;
 }
 
 .secondbutton{
@@ -200,10 +201,8 @@
     justify-content: space-around; 
     align-items: center;
     gap: 20px;
-    padding: 73px;
-    margin-right: 220px;
-    
-
+    padding: 35px;
+    margin-right: 330px;
 }
 
 
@@ -227,7 +226,7 @@
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
-    border: none;
+    
 }
 
 

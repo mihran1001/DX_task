@@ -1,0 +1,13 @@
+.section_two {
+    width: 1440px;
+    /* max-width: 1440px; */
+     height: 740px; 
+     margin: 300px;
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    background: white;
+}

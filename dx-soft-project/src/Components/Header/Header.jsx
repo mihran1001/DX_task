@@ -3,9 +3,7 @@ import hero from "../../images/heroimage.png"
 import rectangle from "../../images/rectangle.png"
 import smallcard from "../../images/smallcard.png"
 import bigcard from "../../images/bigcard.png"
-import card1 from "../../images/card1.png"
-import card2 from "../../images/card2.png"
-import card3 from "../../images/card3.png"
+
 function Header() {
     return (
         
@@ -44,9 +42,17 @@ function Header() {
         
         <ul className="container">
                   
-                    <li className="box"></li>
-                    <li className="box"></li>
-                    <li className="box"></li>
+                    <li className="box">
+
+                    </li>
+
+                    <li className="box">
+
+                    </li>
+                    
+                    <li className="box">
+
+                    </li>
                 </ul>
 
 
