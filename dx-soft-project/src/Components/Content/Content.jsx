@@ -5,6 +5,11 @@ import profile1 from "../../pics/profile1.png";
 // import profile2 from "../../pics/profile2.jpg";
 import star from "../../icons/star.png";
 import frame from "../../icons/Frame.png";
+import alarm from "../../icons/alarm.png";
+import waves from "../../icons/waves.png";
+import mountain from "../../icons/mountain.png";
+import arrow from "../../icons/vector.png";
+
 
 function Content(){
     return (<div className={styles.content}>
@@ -31,7 +36,25 @@ function Content(){
                     <p className={styles.text}>We focus on ergonomics and meeting<br />you where you work. It's only a<br />keystroke away.</p>
                     <div className={styles.sales}>
                         <img src={frame} alt="" className={styles.arrow} />
-                        <h6>15 Sales</h6>
+                        <span>15 Sales</span>
+                    </div>
+                    <div className={styles.price}>
+                        <span className={styles.leftprice}>$16.48</span>
+                        <span className={styles.rightprice}>$6.48</span>
+                    </div>
+                    <div className={styles.details}>
+                        <img src={alarm} alt="" />
+                        <span>22hr 30min</span>
+                        <img src={waves} alt="" />
+                        <span>64 Lessons</span>
+                        <img src={mountain} alt="" />
+                        <span>Progress</span>
+                    </div>
+                    <div>
+                        <button>
+                            <span>Learn More</span>
+                            <img src={arrow} alt="" />
+                        </button>
                     </div>
                 </div> 
 
@@ -50,7 +73,25 @@ function Content(){
                     <p className={styles.text}>We focus on ergonomics and meeting<br />you where you work. It's only a<br />keystroke away.</p>
                     <div className={styles.sales}>
                         <img src={frame} alt="" className={styles.arrow} />
-                        <h6>15 Sales</h6>
+                        <span>15 Sales</span>
+                    </div>
+                    <div className={styles.price}>
+                        <span className={styles.leftprice}>$16.48</span>
+                        <span className={styles.rightprice}>$6.48</span>
+                    </div>
+                    <div className={styles.details}>
+                        <img src={alarm} alt="" />
+                        <span>22hr 30min</span>
+                        <img src={waves} alt="" />
+                        <span>64 Lessons</span>
+                        <img src={mountain} alt="" />
+                        <span>Progress</span>
+                    </div>
+                    <div>
+                        <button>
+                            <span>Learn More</span>
+                            <img src={arrow} alt="" />
+                        </button>
                     </div>
                 </div>
 
