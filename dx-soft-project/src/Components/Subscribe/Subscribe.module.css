@@ -19,6 +19,12 @@
     color: white;
     background: #23A6F0;
     border: none;
+    cursor: pointer;
+}
+
+.Subscribe button:hover {
+    background-color: rgb(117, 210, 253);
+    color: black;
 }
 
 .Subscribe h6 {

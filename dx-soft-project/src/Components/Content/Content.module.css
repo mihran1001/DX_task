@@ -168,13 +168,13 @@
     text-decoration-skip-ink: none;
 }
 
-.box1, .box2 {
+.box1, .box2{
     display: flex;
     flex-direction: column;
     background-color: white;
 }
 
-.box1 {
+.box1{
     margin-right: 15px;
 }
 
@@ -209,6 +209,11 @@
     margin-top: 27px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.carousel button:hover {
+    background-color: rgb(240, 240, 240);
 }
 
 .rating {
@@ -245,7 +250,16 @@
     margin-left: 99px;
 }
 
+.options img {
+    cursor: pointer;
+}
+
 .basket {
     margin-left: 13px;
     margin-right: 13px;
 }
+/* 
+.profile2 {
+    width: 330px;
+    height: 300px;
+} */
