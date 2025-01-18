@@ -72,6 +72,8 @@
     /* align-content: stretch; */
     justify-content: space-around;
     align-items: flex-end;
+    width: 987px;
+    margin-left: 234px;
 }
 
 .title h6 {

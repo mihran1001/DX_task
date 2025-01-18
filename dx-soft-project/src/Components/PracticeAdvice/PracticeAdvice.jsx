@@ -21,7 +21,6 @@ function PracticeAdvice(){
         </div>
             <div className={styles.footer}>
                 <div className={styles.carousel}>
-                    {/* <div className={styles.comment1}>comment1</div> */}
                     <div className={styles.comment2}>
                         <div className={styles.image1}>
                             <img src={pic1} alt="pic1" /> 
