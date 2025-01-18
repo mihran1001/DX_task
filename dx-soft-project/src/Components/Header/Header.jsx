@@ -3,10 +3,16 @@ import hero from "../../images/heroimage.png"
 import rectangle from "../../images/rectangle.png"
 import smallcard from "../../images/smallcard.png"
 import bigcard from "../../images/bigcard.png"
+import icon1 from "../../images/icon1.png"
+import icon2 from "../../images/icon2.png"
+import icon3 from "../../images/icon3.png"
+import line1 from "../../images/line1.png"
+import line2 from "../../images/line2.png"
+import line3 from "../../images/line3.png"
+import vector from "../../images/vector.png"
 
 function Header() {
-    return (
-        
+    return (     
     <section className="section_one">
         <div className="header">
             <div className="menu">
@@ -43,15 +49,30 @@ function Header() {
         <ul className="container">
                   
                     <li className="box">
-
+                    <img src={icon1}/>
+                    <p className="textbold">Evaluation Time</p>
+                    <img src={line1}/>
+                    <p className="maintext">The gradual accumulation of<br></br>
+                        information about atomic and <br></br>
+                        small-scale behaviour...</p>
                     </li>
 
                     <li className="box">
-
+                    <img src={icon2}/>
+                    <p className="textbold">Certified Teacher</p>
+                    <img src={line2}/>
+                    <p className="maintext">The gradual accumulation of<br></br>
+                        information about atomic and <br></br>
+                        small-scale behaviour...</p>
                     </li>
-                    
+                         
                     <li className="box">
-
+                    <img src={icon3}/>
+                    <p className="textbold">Books Liberary</p>
+                    <img src={line3}/>
+                    <p className="maintext">The gradual accumulation of <br></br>
+                        information about atomic and <br></br>
+                        small-scale behaviour...</p>
                     </li>
                 </ul>
 
