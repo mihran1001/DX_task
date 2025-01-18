@@ -2,27 +2,77 @@
     width: 1440px;
     max-width: 1440px;
      height: 744px; 
-    background: aqua;
+    /* background: aqua; */
       margin-top: 200px;
       position: relative;
 }
 
- .p1 {
-  font-family: Montserrat, sans-serif;
+
+
+.forheroes .heroes {
+ position: absolute;
+ left: 800px;
+ bottom: 170px;
+}
+
+.forheroes .boximage {
+  position: absolute;
+  left: 695px;
+  bottom: 330px;
+  cursor: pointer;
+}
+
+.forheroes .largebox {
+  position: absolute;
+  left: 675px;
+  bottom: 155px;
+  cursor: pointer;
+}
+
+.forheroes .square {
+  position: absolute;
+  left: 1130px;
+  bottom: 520px;
+}
+
+.smallrectangle{
+  position: absolute;
+  left: 1130px;
+  bottom: 170px;
+}
+
+.forP .p1 {
+  font-family: Montserrat;
   color: black;
-  margin: 0;
-  font-size: 30px;
+  font-size: 45px;
+  top: 180px;
+  left: 100px;
+  position: absolute;
   font-weight: bold;
-  text-align: center;
-  line-height: 1.5; 
-  flex: 1;
 }
 
-.heroes {
-  
-  width: 150px;
-  height: auto;
-
-  flex-shrink: 0;
- 
+.forP .line {
+  position: absolute;
+  left: 100px;
+  bottom: 350px;
 }
+
+.forP .p2 {
+  position: absolute;
+  top: 400px;
+  color: #737373;
+  font-size: 14px;
+  left: 100px;
+  font-family: Montserrat;
+}
+
+.forP .button {
+  color: #23A6F0;
+  border: none;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  font-size: 14px;
+  font-family: Montserrat;
+}
+

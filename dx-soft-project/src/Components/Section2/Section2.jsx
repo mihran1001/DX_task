@@ -1,15 +1,30 @@
 import styles from "./Section2.module.css"
 import heroes from "../../images/Heroes.png"
+import line from "../../images/line.png"
+import cursoricon from "../../images/cursoricon.png"
+import boximage from "../../images/boximage.png"
+import largebox from "../../images/largebox.png"
+import square from "../../images/square.png"
+import smallrectangle from "../../images/smallrectangle.png"
 function Section2(){
     return (
 <div className={styles.section_two}>
-    <div>
+    <div className={styles.forheroes}>
          <img src={heroes} className={styles.heroes}/>
+         <img src={boximage} className={styles.boximage}/>
+         <img src={largebox} className={styles.largebox}/>
+         <img src={square} className={styles.square}/>
+         <img src={smallrectangle} className={styles.smallrectangle}/>
     </div>
     
-    <div>
-        <p className={styles.p1}>Make online education
+    <div className={styles.forP}>
+        <p className={styles.p1}>Make online education<br></br>
         accessible</p>
+        <img src={line} className={styles.line}/>
+        <p className={styles.p2}>Problems trying to resolve the conflict between<br></br> 
+        the two major realms of Classical physics:<br></br> 
+        Newtonian mechanics </p>
+        <li className={styles.button}>Learn More</li>
     </div>
 </div>
     )
