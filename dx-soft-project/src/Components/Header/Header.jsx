@@ -13,7 +13,9 @@ import vector from "../../images/vector.png"
 
 function Header() {
     return (     
-    <section className="section_one">
+        
+    <div className="section_one">
+        <img src={vector} className="vector"/> 
         <div className="header">
             <div className="menu">
                 <span className="logo">BrandName</span>
@@ -46,38 +48,38 @@ function Header() {
                 <button className="thirdbutton">Learn More</button>
         </div>
         
-        <ul className="container">
+        <div className="container">
                   
-                    <li className="box">
+                    <div className="box">
                     <img src={icon1}/>
                     <p className="textbold">Evaluation Time</p>
                     <img src={line1}/>
                     <p className="maintext">The gradual accumulation of<br></br>
                         information about atomic and <br></br>
                         small-scale behaviour...</p>
-                    </li>
+                    </div>
 
-                    <li className="box">
+                    <div className="box">
                     <img src={icon2}/>
                     <p className="textbold">Certified Teacher</p>
                     <img src={line2}/>
                     <p className="maintext">The gradual accumulation of<br></br>
                         information about atomic and <br></br>
                         small-scale behaviour...</p>
-                    </li>
+                    </div>
                          
-                    <li className="box">
+                    <div className="box">
                     <img src={icon3}/>
                     <p className="textbold">Books Liberary</p>
                     <img src={line3}/>
                     <p className="maintext">The gradual accumulation of <br></br>
                         information about atomic and <br></br>
                         small-scale behaviour...</p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
 
 
-    </section>
+    </div>
     );
 }
 

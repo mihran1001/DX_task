@@ -1,24 +1,26 @@
-.section_one{ 
-    width: 1500px;
-    height: 1141px; 
-     padding:5vw; 
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
+
+.section_one { 
+    width: 1440px;
+    max-width: 1440px;
+    height: 1140px; 
     position: relative;
-    /* background-image: url("../../images/vector.png");  */
-    background-color: #184C99;
-    
  } 
 
-.section_one .header{
+.section_one .vector{
+    position: absolute;
+    width: 1440px;
+}
+
+.section_one  .header{
     width: 100%;
     height: 7vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+     left: 140px; 
 }
+
 .section_one .header .menu{
     display: flex;
     justify-content: flex-start;
@@ -48,7 +50,7 @@
     justify-content: flex-end;
     justify-content: center;
     gap: 2vw;
-    padding-right: 15vw;
+    padding-right: 29vw;
 }
 .section_one .header .right_side_menu .right_side_menu_list{
     display: flex;
@@ -63,6 +65,7 @@
     cursor: pointer;
 }
 .section_one .header .right_side_menu button{
+    height: 45px;
     padding: 1vw 2vw;
     font-weight: bold;
     color: #FFFFFF;
@@ -77,82 +80,84 @@
     background: #4fbeff;
 }
 
-.backGround{
-    transform: translate(-490px, -80px);
-
-}
 
 .backGround .text2 {
+    position: absolute;
     color: white;
-     font-size:  55px;
+     font-size:  58px;
      font-weight: bold;
      font-family: Montserrat;
+     top: 260px;
+     left: 140px;
 }
 
 .backGround .text1{
-    
+    position:absolute;
     color: #23A6F0;
     font-size: 17px;
-    margin-top: 14vw;
     font-family: Montserrat;
+    top: 180px;
+    left: 140px;
 }
 
 .backGround  .text3{
+    position: absolute;
     font-size: 20px;
     font-weight: normal;
     font-family: Montserrat;
     color: white;
-    margin-top: 30px;
+    left: 140px;
+    top: 450px;
 }
 
 
  .forimage {
+    position: absolute;
     width: 200px; 
     height: auto; 
     position: absolute;
     top: 20%;
     left: 10%;
     z-index: 5;
-    margin-left: 790px;
-    margin-top: 10px;
+    left: 790px;
+    top: 145px;
     width: 355px;
     height: 446px;
 }
 
 .forimage2{
+    position: absolute;
     width: 200px;
     height: auto;
     position: absolute; 
     top: 20%; 
     left: 10%; 
     z-index: 5; 
-    margin-left: 820px;
-    margin-top: 50px;
+    left: 820px;
+    top: 170px;
     width: 355px;
     height: 446px;
 }
 
 .forimage3 {
+    position: absolute;
     width: 200px;
     height: auto; 
     position: absolute; 
     top: 20%;
     left: 10%; 
     z-index: 5; 
-    margin-left: 700px;
-    margin-top: 80px;
+    left: 670px;
+    top: 220px;
     width: 151px;
     height: 76;
 }
 .forimage4 {
-    width: 200px;
-    height: auto;
     position: absolute;
-    top: 20%;
-    left: 10%;
+    height: auto;
     z-index: 5; 
-    margin-left: 880px;
-    margin-top: 375px;
+    left: 910px;
+    top: 518px;
     width: 172px;
     height: 172px;
 }
@@ -168,7 +173,9 @@
     transition: .3s;
     font: Montserrat;
     border: none;
-    margin-right: 10px;
+    position: absolute;
+    left: 140px;
+    top: 500px;
 }
 
 .secondbutton:hover {
@@ -188,25 +195,26 @@
     border-color: #4fbeff;
     border-radius: 5px;
     margin-right: 10px;
+    position: absolute;
+    left: 260px;
+    top: 499px;
 }
 
 
 .container {
+    position: absolute;
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    gap: 20px;
-    /* padding: 35px; */
-    /* margin-right: 330px; */
-    /* margin-top: 70px; */
-    transform: translate(-165px,44px);
-    gap: 50px;
+    gap: 30px;
+    bottom: 120px;
+    left: 140px;
 }
 
 
 
 .box {
-    position: relative;
+    /* position: absolute; */
     display: inline-block;
     color: #000;
     gap: 400px;
