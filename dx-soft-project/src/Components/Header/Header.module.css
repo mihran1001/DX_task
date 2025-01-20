@@ -29,26 +29,25 @@
 }
 
 .section_one .header .menu .logo{
-    /* position: absolute; */
     font-size: 24px;
     font-weight: bold;
     color: #FFFFFF;
 }
 .section_one .header .menu .menu_list{
-    /* position: absolute; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
     list-style: none;
 }
+
 .section_one .header .menu .menu_list li{
-    /* position: absolute; */
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
     cursor: pointer;
 }
+
 .section_one .header .right_side_menu{
     display: flex;
     justify-content: flex-end;
@@ -56,6 +55,7 @@
     gap: 16px;
     padding-right: 450px;
 }
+
 .section_one .header .right_side_menu .right_side_menu_list{
     display: flex;
     justify-content: flex-start;
@@ -63,12 +63,14 @@
     gap: 10px;
     list-style-type: none;
 }
+
 .section_one .header .right_side_menu .right_side_menu_list li{
     color: #FFFFFF;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
 }
+
 .section_one .header .right_side_menu button{
     height: 45px;
     padding: 10px 25px;
@@ -81,10 +83,10 @@
     transition: .3s;
     font-family: Montserrat;
 }
+
 .section_one .header .right_side_menu button:hover{
     background: #4fbeff;
 }
-
 
 .backGround .text2 {
     position: absolute;
@@ -114,7 +116,6 @@
     left: 140px;
     top: 450px;
 }
-
 
  .forimage {
     position: absolute;
@@ -157,6 +158,7 @@
     width: 151px;
     height: 76;
 }
+
 .forimage4 {
     position: absolute;
     height: auto;
@@ -170,7 +172,6 @@
 .secondbutton{
    background-color: #23A6F0;
    color: white;
-   /* padding:1vw 2vw; */
     padding: 10px 20px;
     font-weight: bold;
     border-radius: 5px;
@@ -200,7 +201,6 @@
     font: Montserrat;
     border-color: #4fbeff;
     border-radius: 5px;
-    /* margin-right: 10px; */
     position: absolute;
     left: 240px;
     top: 499px;
@@ -217,10 +217,7 @@
     left: 140px;
 }
 
-
-
 .box {
-    /* position: absolute; */
     display: inline-block;
     color: #000;
     gap: 400px;
